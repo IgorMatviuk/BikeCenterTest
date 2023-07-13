@@ -74,6 +74,11 @@
             </div>
           </div>
         </div>
+        <div class="footer__right__icons">
+          <img src="../assets/img/footer/vk.svg" alt="">
+          <img src="../assets/img/footer/youtube.svg" alt="">
+          <img src="../assets/img/footer/tik.png" alt="">
+        </div>
       </div>
     </div>
     <div class="footer__bottom">

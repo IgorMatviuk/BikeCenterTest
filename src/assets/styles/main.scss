@@ -618,6 +618,7 @@ body {
   &__center {
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 20px;
     li {
       margin: 0px 40px 0px -40px;
       img {
@@ -657,6 +658,12 @@ body {
         }
       }
     }
+    &__icons{
+      display: flex;
+      justify-content: space-between;
+      width: 118px;
+      margin: 160px 0px 0px 200px;
+    }
   }
   &__bottom{
     display: flex;
@@ -677,9 +684,43 @@ margin: 6px 0px -4px 0px;
   }
 }
 
+@media (max-width: 1810px) {
+
+  .main__cards__gar button{
+    width: 216px;
+  }
+  .main__cards__gold{
+    img{
+      display: none;
+    }
+  }
+  .main__cards__del{
+    img{
+      display: none;
+    }
+  }
+
+  .main__cards__gar{
+    flex-direction: column;
+    button{
+      margin: 25px 0px 0px 0px;
+    }
+  }
+
+  .main__cards__card-box{
+    height: auto;
+  }
+
+  .main__cards__card-width-right{
+    height: auto;
+  }
+
+}
+
 @media (max-width: 1680px) {
   .header {
     &__top {
+      margin: 5px 50px 5px 50px;
       &__menu {
         flex-direction: column;
         margin: 10px;
@@ -689,6 +730,9 @@ margin: 6px 0px -4px 0px;
       }
     }
     &__center {
+      &__container{
+        margin: 11px 50px 11px 50px;
+      }
       &__catalog-btn {
         margin: 0px 0px 0px 15px;
         max-width: 40px;
@@ -721,7 +765,107 @@ margin: 6px 0px -4px 0px;
         }
       }
     }
+    &__bottom{
+      &__container{
+        margin: 9px 50px 6px 50px;
+      }
+    }
   }
+  .breadcrumbs{
+    margin: 15px 50px 0px 50px;
+  }
+  .main{
+    &__container{
+    margin: 11px 50px 11px 50px;
+    }
+  }
+
+  .description__container{
+    width: 100%;
+  }
+
+  .footer__container{
+    margin: 30px 50px 47px 50px;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .main{
+    &__cards{
+      flex-direction: column;
+      &__gold{
+        img{
+          display: flex;
+          margin: -62px 0px 0px 65%;
+        }
+      }
+      &__del{
+        img{
+          display: flex;
+        }
+      }
+      &__card-width-right{
+        width: 100%;
+        margin: -25px 0px 0px 0px;
+      }
+      &__card-box{
+        width: 49.3%;
+      }
+      &__card{
+        margin: 8px 4px 8px 4px;
+      }
+      &__image-two{
+        h1{
+          margin: 20px 0px 10px 40px;
+        }
+        ul{
+          margin: 22px 0px 0px 0px;
+        }
+        img {
+          margin: 38px 0px 0px 50%;
+      }
+      }
+    }
+  }
+}
+
+@media (max-width: 1265px) {
+
+  .main__cards__gold img{
+    margin: -32px 30px 0px 0px;
+    right: 0;
+    width: 250px;
+  }
+  .main__cards__card{
+    width: 100%;
+  }
+
+  .main__cards__del{
+    img{
+      width: 270px;
+      margin: 0px 55px 0px 0px;
+    }
+  }
+
+  .main__cards__back{
+    img{
+      width: 250px;
+    }
+  }
+
+  .main__cards__image-two img {
+    margin: 38px 0px 0px 0px;
+    right: 0;
+}
+.main__cards__image-one img {
+  margin: -20px 0px 0px 0px;
+  right: 0;
+}
+
+.main__cards__image-one h1{
+  margin: 5px 0px 0px 0px;
+}
 }
 
 @media (max-width: 1200px) {
@@ -763,4 +907,80 @@ margin: 6px 0px -4px 0px;
       margin: 0px 0px 0px 50px;
     }
   }
+
+  .footer{
+    &__container{
+      flex-wrap: wrap;
+    }
+
+    &__left{
+      margin: 0px 0px 50px 0px;
+    }
+    &__right{
+      width: 100%;
+      justify-content: space-between;
+      flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px 0px 0px;
+    &__icons{
+      margin: 20px 0px 0px 0px;
+    }
+    }
+  }
+}
+
+@media (max-width: 1095px) {
+.footer__center{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+.main__cards{
+  margin: 10px 0px 0px 0px;
+}
+.main__phone-section__hot-line{
+  flex-direction: column;
+  h2{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+  }
+}
+}
+
+@media (max-width: 768px) {
+
+  .main__cards__card__container{
+    align-items: center;
+    margin: 40px 20px 40px 20px;
+  }
+
+  .main__cards__card img {
+    position: relative;
+    width: 300px;
+  }
+
+  .main__cards__image-one img {
+    margin: -70px 0px 0px 0px;
+    right: 0;
+}
+
+.main__cards__card-menu{
+  display: none;
+}
+
+.main__cards__back img {
+  margin: -65px 0px 0px 0px;
+  right: 0;
+}
+
+.main__cards__gold img{
+  display: none;
+}
+
+.footer__left__menu{
+  flex-direction: column;
+}
+
 }
