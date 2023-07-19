@@ -11,26 +11,28 @@
         </div>
       </div>
       <Cards />
-      <Description />
-      
+      <Description class="mob-none" />
+
     </div>
-    <Footer />
+    <Footer class="mob-none" />
+    <FooterMob />
   </div>
 </template>
   
-  <script>
+<script>
 import Cards from "./Cards.vue";
 import Description from "./Description.vue";
 import Footer from "./Footer.vue";
+import FooterMob from "./FooterMob.vue";
 
 export default {
   components: {
     Cards,
     Description,
     Footer,
+    FooterMob
   },
 };
 </script>
   
-  <style lang="scss">
-</style>
+<style lang="scss"></style>

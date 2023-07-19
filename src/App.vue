@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header/>
-    <Breadcrumbs/>
-    <Main/>
+    <Header />
+    <Breadcrumbs />
+    <Main />
   </div>
 </template>
 
@@ -21,6 +21,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
