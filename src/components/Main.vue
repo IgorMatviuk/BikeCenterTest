@@ -12,7 +12,6 @@
       </div>
       <Cards />
       <Description class="mob-none" />
-
     </div>
     <Footer class="mob-none" />
     <FooterMob />
